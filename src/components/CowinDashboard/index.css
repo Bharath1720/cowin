@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.main-covid-container {
+  background-color: #161625;
+
+  min-height: 100vh;
+  padding: 20px 50px;
+}
+.logo {
+  height: 30px;
+  margin-right: 10px;
+}
+.heading-text {
+  color: #2cc6c6;
+  font-weight: 800;
+}
+.main-page-heading {
+  display: flex;
+  align-items: center;
+}
+.title {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  margin: 10px 0px;
+}
+.loading-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
